@@ -5,29 +5,29 @@ This project demonstrates the deployment of a small Security Operations Center (
 
 Objectives
 
-Deploy Elasticsearch and Kibana using Docker
+* Deploy Elasticsearch and Kibana using Docker
 
-Collect logs using Filebeat
+* Collect logs using Filebeat
 
-Integrate Cortex for automated threat analysis
+* Integrate Cortex for automated threat analysis
 
-Simulate real SOC analyst workflows
+* Simulate real SOC analyst workflows
 
-Gain hands-on experience with Docker Desktop
+* Gain hands-on experience with Docker Desktop
 
 Tools & Technologies
 
-Docker Desktop (Windows + WSL)
+* Docker Desktop (Windows + WSL)
 
-Docker Compose
+* Docker Compose
 
-Elasticsearch – Log storage and search
+* Elasticsearch – Log storage and search
 
-Kibana – Dashboards and visualization
+* Kibana – Dashboards and visualization
 
-Filebeat – Log collection and forwarding
+* Filebeat – Log collection and forwarding
 
-Cortex – Threat intelligence enrichment
+* Cortex – Threat intelligence enrichment
 
 Architecture Overview
 
@@ -36,30 +36,30 @@ Filebeat collects logs and forwards them to Elasticsearch. Kibana visualizes the
 
 Installation & Setup
 
-Installed Docker Desktop with WSL enabled
+1.Installed Docker Desktop with WSL enabled
 
-Configured Elasticsearch, Kibana, Filebeat, and Cortex using Docker Compose
+2.Configured Elasticsearch, Kibana, Filebeat, and Cortex using Docker Compose
 
-Started all services using docker compose up -d
+3.Started all services using docker compose up -d
 
-Verified services via Docker Desktop and web interfaces
+4.Verified services via Docker Desktop and web interfaces
 
 
 Configuration & Integration
 
-Filebeat configured to collect system logs
+* Filebeat configured to collect system logs
 
-Elasticsearch set as Filebeat output
+* Elasticsearch set as Filebeat output
 
-Kibana connected to Elasticsearch for visualization
+* Kibana connected to Elasticsearch for visualization
 
-Cortex integrated for alert enrichment
+* Cortex integrated for alert enrichment
 
 
 Results & Observations
 
-Kibana Dashboard
-Cortex Interface
+* Kibana Dashboard
+* Cortex Interface
 
 
 Challenges & Solutions
@@ -71,15 +71,15 @@ Filebeat ingestion errors	Corrected Filebeat output configuration
 
 Skills & Learning Outcomes
 
-ELK stack deployment with Filebeat
+* ELK stack deployment with Filebeat
 
-Log ingestion and visualization
+* Log ingestion and visualization
 
-Threat enrichment using Cortex
+* Threat enrichment using Cortex
 
-Docker networking and troubleshooting
+* Docker networking and troubleshooting
 
-SOC analyst workflow simulation
+* SOC analyst workflow simulation
 
 
 
